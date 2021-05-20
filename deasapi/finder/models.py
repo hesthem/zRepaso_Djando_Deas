@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 
-class Dea(models.Model):
+class DEA(models.Model):
     codigo_dea = models.CharField(max_length=100) #VARCHAR
     direccion_ubicacion = models.CharField(max_length=100)
     direccion_via_nombre = models.CharField(max_length=100)
